@@ -1,0 +1,302 @@
+    html{padding: 0; margin: 0;}
+
+    body {
+    background-position: 50% 50%;
+    margin-top:-5%;
+    margin-bottom:20%;
+    padding:0px !important;
+    height:100%;
+    background-color: black;
+}
+
+    .topmain{
+        background-color: black;
+       
+
+    }
+
+    #img {
+        height:345px;
+    }
+    .figure {
+       position: relative;
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0px;
+
+        
+    
+           }
+
+    /*NAVIGATION BAR POSITIONING AND FORMATTING */
+    .navigationDiv {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0px;
+    padding-right: 152px;
+    padding-left: 158px;
+  
+
+    }
+
+    /* */
+    ul {
+            list-style-type: none;
+            margin-top: 0px;
+            padding: 0px;
+            padding-left: 0px;
+            overflow: hidden;
+            border-radius: 5px;
+            background-color: #333333;
+            text-align: center;
+          
+        }
+
+        /* DISPLAY TYPE FOR NAV BAR ELEMENTS*/
+        li { display: inline-block; 
+        }
+
+
+            /* FORMATTING FOR NAV BAR ELEMENTS */
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 9px;
+                text-decoration: none;
+                border-bottom: none;
+                margin-right: 10px;
+                transition: background 0.75s;
+            }
+
+            /* HOVER ON NAVIGATION ITEM TRANSITION*/
+            li a:hover { 
+                background: transparent;
+                transition: background 0s;
+                background-color: #111111
+
+                 }
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 100;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+  margin-bottom: 0px;
+  float:left;
+  width: 100%;
+}
+
+.bottomfooter{
+    background-color: #A09D99;
+    width:1200px;
+    color: black;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0px;
+    height:70px;
+}
+
+.fa{
+    margin-left: 10px;
+    
+    
+}
+
+.fa:hover {
+    color: white;
+    font-size:1.5em;
+}
+
+}
+
+.section2{
+    background-color: black;
+    width: 100%;
+    height: 50%;
+}
+
+#Shops{
+    position: relative;
+    float: left;
+}
+div.jewellGallery {
+    margin: 5px;    
+    float: left;
+    width: 180px;
+   
+    margin-left:200px;
+}
+div.jewellGallery:hover {
+    
+}
+
+div.jewellGallery img {
+    width: 100%;
+    height: auto;
+    margin-left:200px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    margin-left:200px;
+}
+
+div.sponsoredEvents {
+    margin: 5px;    
+    float: left;
+    width: 180px;
+   
+    margin-left:300px;
+}
+div.sponsoredEvents:hover {
+   }
+
+div.sponsoredEvents img {
+    width: 100%;
+    height: auto;
+    margin-left:200px;
+}
+
+#Events {
+    position: relative;
+    float: left;
+    background-color: black;
+    color:white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#Shops {
+
+    position: relative;
+    float: left;
+    background-color: black;
+    color:white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0px;
+
+    width: 100%;
+}
+
+picture {
+    float: left;
+    background-color: black;
+}
+
+.sectDesc {
+    float: left;
+    margin-left: 120px;
+    font-family: sans-serif;
+    background-color: black;
+
+}
+
+#description{
+    background-color: black;
+}
+#texttype{
+    color: #978969;
+}
+
+
+
+h3{
+
+    line-height: 230%;
+    font-weight: normal;
+    color: white;
+}
+
+.circular-image {
+  border-radius:  50%;
+}
+
+#button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: grey;
+  border: none;
+  color: #C2C2C2;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#button:hover span {
+  padding-right: 25px;
+}
+
+#button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#description{
+    margin-left:150px;
+}
+
+.borderimage{
+    margin-top:10px;
+    height:5px;
+
+}
+
+.logoimage{
+    
+  -webkit-filter: blur(2px);
+
+}
+
+
+
+.logoimage:hover{
+    transition: 1s;
+  -webkit-filter: blur(0px);
+
+}
+
+.jewellGallery:hover {
+  -webkit-filter: grayscale(100%);
+}
+
